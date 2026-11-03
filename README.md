@@ -39,3 +39,7 @@ python quotes.py
 
 Then open `index.html`. No build step, no dependencies beyond the Python
 standard library.
+
+## Live site
+
+https://guruh060802-afk.github.io/nse-dashboard/
