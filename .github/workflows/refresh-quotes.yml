@@ -1,0 +1,33 @@
+name: Refresh quotes
+
+on:
+  # Every 15 minutes during NSE hours. 03:00-10:45 UTC is 08:30-16:15 IST.
+  # GitHub's scheduler is not punctual: expect 5 to 20 minutes of drift at busy
+  # times, so treat these as "recent" prices, not tick data.
+  schedule:
+    - cron: "*/15 3-10 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch live quotes
+        run: python quotes.py
+
+      - name: Commit the refreshed data
+        run: |
+          git config user.name "quote-bot"
+          git config user.email "actions@github.com"
+          git add data
+          git commit -m "quotes: $(date -u +%Y-%m-%dT%H:%MZ)" || echo "nothing changed"
+          git push
