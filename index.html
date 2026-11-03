@@ -1509,11 +1509,30 @@
       if (elSma) { elSma.innerText = fmt(nn.sma200); }
     }
 
+    // How old is this data, really? Never let a stale file look fresh.
+    var ageMin = null;
+    if (q.generatedISO) {
+      var t = new Date(q.generatedISO).getTime();
+      if (!isNaN(t)) { ageMin = Math.round((Date.now() - t) / 60000); }
+    }
+    var ageText = ageMin === null ? '' : '  (' + ageMin + ' min old)';
+
     var n = q.nifty || {};
     bar.style.background = q.regimeBull === false ? '#2a1215' : '#0b1220';
     bar.style.color = q.regimeBull === false ? '#ffb4b4' : '#9fb3c8';
+    if (ageMin !== null && ageMin > 30) {
+      bar.style.background = '#3a2a08';
+      bar.style.color = '#ffd479';
+      ageText = '  (' + ageMin + ' min old - REFRESH IS STALLED)'; 
+    }
+    if (ageMin !== null && ageMin > 180) {
+      bar.style.background = '#3b1219';
+      bar.style.color = '#ffb4b4';
+      ageText = '  (' + ageMin + ' min old - DATA IS NOT LIVE, do not trade off it)';
+    }
+
     bar.textContent = 'Live: ' + refreshed + ' of ' + candidatesData.length +
-      ' prices from ' + q.source + ' as of ' + q.asOfIST + ' IST' +
+      ' prices from ' + q.source + ' as of ' + q.asOfIST + ' IST' + ageText +
       (n.level ? '  |  NIFTY 50 ' + n.level.toLocaleString('en-IN') +
         (n.sma200 ? ' vs 200DMA ' + n.sma200.toLocaleString('en-IN') : '') : '') +
       (q.regimeBull === false ? '  |  REGIME BEARISH - long setups fail more often' : '');
