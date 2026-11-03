@@ -1471,12 +1471,27 @@
       'background:#0b1220;color:#9fb3c8;border-bottom:1px solid #1e293b;';
     document.body.insertBefore(bar, document.body.firstChild);
 
+    // The refresh that provably works: the Actions dispatch page.
+    function addRefreshLink() {
+      var a = document.createElement('a');
+      a.href = 'https://github.com/guruh060802-afk/nse-dashboard/actions/' +
+        'workflows/refresh-quotes.yml';
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = 'Refresh now';
+      a.style.cssText = 'margin-left:12px;padding:2px 9px;border:1px solid ' +
+        'currentColor;border-radius:4px;color:inherit;text-decoration:none;' +
+        'white-space:nowrap;';
+      bar.appendChild(a);
+    }
+
     var q = window.MARKET_QUOTES;
     if (!q || !q.quotes) {
       bar.style.background = '#3b1219';
       bar.style.color = '#ffb4b4';
       bar.textContent = 'NO LIVE DATA FILE - the prices below are a frozen ' +
-        'sample and are probably wrong. Run quotes.py to refresh.';
+        'sample and are probably wrong.';
+      addRefreshLink();
       return;
     }
 
@@ -1536,6 +1551,7 @@
       (n.level ? '  |  NIFTY 50 ' + n.level.toLocaleString('en-IN') +
         (n.sma200 ? ' vs 200DMA ' + n.sma200.toLocaleString('en-IN') : '') : '') +
       (q.regimeBull === false ? '  |  REGIME BEARISH - long setups fail more often' : '');
+    addRefreshLink();
   })();
 
   // Initial load
