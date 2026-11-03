@@ -1,68 +1,68 @@
 {
-  "asOfIST": "03 Nov 2026 14:16",
-  "generatedISO": "2026-11-03T14:16:58.323218+05:30",
+  "asOfIST": "03 Nov 2026 14:41",
+  "generatedISO": "2026-11-03T14:41:08.840378+05:30",
   "source": "NSE NextApi + Yahoo fallback",
   "quotes": {
     "TRENT": {
-      "price": 3024.6,
+      "price": 3021.0,
       "prevClose": 3046.4,
       "source": "NSE",
       "symbol": "TRENT",
-      "pctChange": -0.72
+      "pctChange": -0.83
     },
     "BEL": {
-      "price": 376.7,
+      "price": 377.65,
       "prevClose": 376.5,
       "source": "NSE",
       "symbol": "BEL",
-      "pctChange": 0.05
+      "pctChange": 0.31
     },
     "DIXON": {
-      "price": 12122.0,
+      "price": 12132.0,
       "prevClose": 12319.0,
       "source": "NSE",
       "symbol": "DIXON",
-      "pctChange": -1.6
+      "pctChange": -1.52
     },
     "BHARTIARTL": {
-      "price": 2058.7,
+      "price": 2053.9,
       "prevClose": 1989.9,
       "source": "NSE",
       "symbol": "BHARTIARTL",
-      "pctChange": 3.46
+      "pctChange": 3.22
     },
     "PERSISTENT": {
-      "price": 6087.0,
+      "price": 6079.0,
       "prevClose": 6051.0,
       "source": "NSE",
       "symbol": "PERSISTENT",
-      "pctChange": 0.59
+      "pctChange": 0.46
     },
     "HAL": {
-      "price": 4923.0,
+      "price": 4911.4,
       "prevClose": 4855.0,
       "source": "NSE",
       "symbol": "HAL",
-      "pctChange": 1.4
+      "pctChange": 1.16
     },
     "CHOLAFIN": {
-      "price": 1643.6,
+      "price": 1644.2,
       "prevClose": 1624.4,
       "source": "NSE",
       "symbol": "CHOLAFIN",
-      "pctChange": 1.18
+      "pctChange": 1.22
     },
     "FEDERALBNK": {
-      "price": 333.6,
+      "price": 332.9,
       "prevClose": 337.5,
       "source": "NSE",
       "symbol": "FEDERALBNK",
-      "pctChange": -1.16
+      "pctChange": -1.36
     }
   },
   "failed": [],
   "nifty": {
-    "level": 23705.05,
+    "level": 23708.4,
     "sma200": 24016.8,
     "regimeBull": false
   },
