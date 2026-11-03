@@ -1493,6 +1493,22 @@
 
     if (typeof q.regimeBull === 'boolean') { setRegime(q.regimeBull); }
 
+    // setRegime() writes hardcoded index numbers ("24,310.85" / "22,410.20"),
+    // neither of which is real. Replace them with the actual values.
+    var nn = q.nifty || {};
+    function fmt(v) {
+      return Number(v).toLocaleString('en-IN',
+        {minimumFractionDigits: 2, maximumFractionDigits: 2});
+    }
+    if (nn.level) {
+      var elLevel = document.getElementById('niftyClose');
+      if (elLevel) { elLevel.innerText = fmt(nn.level); }
+    }
+    if (nn.sma200) {
+      var elSma = document.getElementById('niftySma200');
+      if (elSma) { elSma.innerText = fmt(nn.sma200); }
+    }
+
     var n = q.nifty || {};
     bar.style.background = q.regimeBull === false ? '#2a1215' : '#0b1220';
     bar.style.color = q.regimeBull === false ? '#ffb4b4' : '#9fb3c8';
