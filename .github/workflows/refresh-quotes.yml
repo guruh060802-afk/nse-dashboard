@@ -1,15 +1,20 @@
 name: Refresh quotes
 
 on:
-  # Every 15 minutes during NSE hours. 03:00-10:45 UTC is 08:30-16:15 IST.
-  # GitHub's scheduler is not punctual: expect 5 to 20 minutes of drift at busy
-  # times, so treat these as "recent" prices, not tick data.
+  # Every 5 minutes during NSE hours (03:00-10:45 UTC = 08:30-16:15 IST).
+  # GitHub's scheduler is best-effort: it drops and delays runs, especially on
+  # new repositories and at busy times. Frequent attempts are the only defence
+  # available inside GitHub. Actions minutes are free on public repositories.
   schedule:
-    - cron: "*/15 3-10 * * 1-5"
+    - cron: "*/5 3-10 * * 1-5"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: refresh-quotes
+  cancel-in-progress: false
 
 jobs:
   refresh:
