@@ -1,68 +1,68 @@
 window.MARKET_QUOTES = {
-  "asOfIST": "03 Nov 2026 16:32",
-  "generatedISO": "2026-11-03T16:32:16.382164+05:30",
+  "asOfIST": "04 Nov 2026 09:07",
+  "generatedISO": "2026-11-04T09:07:25.366454+05:30",
   "source": "NSE NextApi + Yahoo fallback",
   "quotes": {
     "TRENT": {
-      "price": 3036.5,
-      "prevClose": 3046.4,
+      "price": 3022.0,
+      "prevClose": 3036.5,
       "source": "NSE",
       "symbol": "TRENT",
-      "pctChange": -0.32
+      "pctChange": -0.48
     },
     "BEL": {
-      "price": 380.1,
-      "prevClose": 376.5,
+      "price": 382.0,
+      "prevClose": 380.1,
       "source": "NSE",
       "symbol": "BEL",
-      "pctChange": 0.96
+      "pctChange": 0.5
     },
     "DIXON": {
-      "price": 12270.0,
-      "prevClose": 12319.0,
+      "price": 12225.0,
+      "prevClose": 12270.0,
       "source": "NSE",
       "symbol": "DIXON",
-      "pctChange": -0.4
+      "pctChange": -0.37
     },
     "BHARTIARTL": {
-      "price": 2065.0,
-      "prevClose": 1989.9,
+      "price": 2059.9,
+      "prevClose": 2065.0,
       "source": "NSE",
       "symbol": "BHARTIARTL",
-      "pctChange": 3.77
+      "pctChange": -0.25
     },
     "PERSISTENT": {
-      "price": 6097.0,
-      "prevClose": 6051.0,
+      "price": 6049.0,
+      "prevClose": 6097.0,
       "source": "NSE",
       "symbol": "PERSISTENT",
-      "pctChange": 0.76
+      "pctChange": -0.79
     },
     "HAL": {
-      "price": 4958.6,
-      "prevClose": 4855.0,
+      "price": 4939.0,
+      "prevClose": 4958.6,
       "source": "NSE",
       "symbol": "HAL",
-      "pctChange": 2.13
+      "pctChange": -0.4
     },
     "CHOLAFIN": {
-      "price": 1650.0,
-      "prevClose": 1624.4,
+      "price": 1651.0,
+      "prevClose": 1650.0,
       "source": "NSE",
       "symbol": "CHOLAFIN",
-      "pctChange": 1.58
+      "pctChange": 0.06
     },
     "FEDERALBNK": {
-      "price": 333.75,
-      "prevClose": 337.5,
+      "price": 332.9,
+      "prevClose": 333.75,
       "source": "NSE",
       "symbol": "FEDERALBNK",
-      "pctChange": -1.11
+      "pctChange": -0.25
     }
   },
   "failed": [],
   "nifty": {
-    "level": 23810.85,
+    "level": 23803.65,
     "sma200": 24017.32,
     "regimeBull": false
   },
