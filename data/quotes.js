@@ -1,69 +1,69 @@
 window.MARKET_QUOTES = {
-  "asOfIST": "04 Nov 2026 10:02",
-  "generatedISO": "2026-11-04T10:02:04.892775+05:30",
+  "asOfIST": "04 Nov 2026 10:58",
+  "generatedISO": "2026-11-04T10:58:52.836063+05:30",
   "source": "NSE NextApi + Yahoo fallback",
   "quotes": {
     "TRENT": {
-      "price": 3019.5,
+      "price": 3021.0,
       "prevClose": 3036.5,
       "source": "NSE",
       "symbol": "TRENT",
-      "pctChange": -0.56
+      "pctChange": -0.51
     },
     "BEL": {
-      "price": 381.7,
+      "price": 390.5,
       "prevClose": 380.1,
       "source": "NSE",
       "symbol": "BEL",
-      "pctChange": 0.42
+      "pctChange": 2.74
     },
     "DIXON": {
-      "price": 12108.0,
+      "price": 12236.0,
       "prevClose": 12270.0,
       "source": "NSE",
       "symbol": "DIXON",
-      "pctChange": -1.32
+      "pctChange": -0.28
     },
     "BHARTIARTL": {
-      "price": 2064.4,
+      "price": 2053.1,
       "prevClose": 2065.0,
       "source": "NSE",
       "symbol": "BHARTIARTL",
-      "pctChange": -0.03
+      "pctChange": -0.58
     },
     "PERSISTENT": {
-      "price": 6044.0,
+      "price": 6007.0,
       "prevClose": 6097.0,
       "source": "NSE",
       "symbol": "PERSISTENT",
-      "pctChange": -0.87
+      "pctChange": -1.48
     },
     "HAL": {
-      "price": 4931.2,
+      "price": 5017.1,
       "prevClose": 4958.6,
       "source": "NSE",
       "symbol": "HAL",
-      "pctChange": -0.55
+      "pctChange": 1.18
     },
     "CHOLAFIN": {
-      "price": 1647.3,
+      "price": 1650.3,
       "prevClose": 1650.0,
       "source": "NSE",
       "symbol": "CHOLAFIN",
-      "pctChange": -0.16
+      "pctChange": 0.02
     },
     "FEDERALBNK": {
-      "price": 330.75,
+      "price": 331.95,
       "prevClose": 333.75,
       "source": "NSE",
       "symbol": "FEDERALBNK",
-      "pctChange": -0.9
+      "pctChange": -0.54
     }
   },
   "failed": [],
   "nifty": {
-    "level": 23908.25,
-    "sma200": 24008.45,
+    "level": 23841.35,
+    "sma200": 24008.03,
     "regimeBull": false
   },
   "regimeBull": false
