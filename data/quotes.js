@@ -1,69 +1,69 @@
 window.MARKET_QUOTES = {
-  "asOfIST": "06 Nov 2026 10:06",
-  "generatedISO": "2026-11-06T10:06:56.663760+05:30",
+  "asOfIST": "06 Nov 2026 11:04",
+  "generatedISO": "2026-11-06T11:04:03.266890+05:30",
   "source": "NSE NextApi + Yahoo fallback",
   "quotes": {
     "TRENT": {
-      "price": 3038.6,
+      "price": 3033.0,
       "prevClose": 3055.0,
       "source": "NSE",
       "symbol": "TRENT",
-      "pctChange": -0.54
+      "pctChange": -0.72
     },
     "BEL": {
-      "price": 389.7,
+      "price": 390.35,
       "prevClose": 395.1,
       "source": "NSE",
       "symbol": "BEL",
-      "pctChange": -1.37
+      "pctChange": -1.2
     },
     "DIXON": {
-      "price": 12503.0,
+      "price": 12498.0,
       "prevClose": 12616.0,
       "source": "NSE",
       "symbol": "DIXON",
-      "pctChange": -0.9
+      "pctChange": -0.94
     },
     "BHARTIARTL": {
-      "price": 2065.0,
+      "price": 2083.0,
       "prevClose": 2056.9,
       "source": "NSE",
       "symbol": "BHARTIARTL",
-      "pctChange": 0.39
+      "pctChange": 1.27
     },
     "PERSISTENT": {
-      "price": 6222.0,
+      "price": 6162.5,
       "prevClose": 6109.5,
       "source": "NSE",
       "symbol": "PERSISTENT",
-      "pctChange": 1.84
+      "pctChange": 0.87
     },
     "HAL": {
-      "price": 4863.0,
+      "price": 4877.1,
       "prevClose": 5043.0,
       "source": "NSE",
       "symbol": "HAL",
-      "pctChange": -3.57
+      "pctChange": -3.29
     },
     "CHOLAFIN": {
-      "price": 1742.0,
+      "price": 1739.2,
       "prevClose": 1760.0,
       "source": "NSE",
       "symbol": "CHOLAFIN",
-      "pctChange": -1.02
+      "pctChange": -1.18
     },
     "FEDERALBNK": {
-      "price": 338.6,
+      "price": 338.15,
       "prevClose": 338.5,
       "source": "NSE",
       "symbol": "FEDERALBNK",
-      "pctChange": 0.03
+      "pctChange": -0.1
     }
   },
   "failed": [],
   "nifty": {
-    "level": 24623.8,
-    "sma200": 23996.92,
+    "level": 24606.45,
+    "sma200": 23996.86,
     "regimeBull": true
   },
   "regimeBull": true
