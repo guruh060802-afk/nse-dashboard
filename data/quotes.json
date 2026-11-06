@@ -1,69 +1,69 @@
 {
-  "asOfIST": "06 Nov 2026 13:17",
-  "generatedISO": "2026-11-06T13:17:57.678117+05:30",
+  "asOfIST": "06 Nov 2026 14:09",
+  "generatedISO": "2026-11-06T14:09:32.135805+05:30",
   "source": "NSE NextApi + Yahoo fallback",
   "quotes": {
     "TRENT": {
-      "price": 3063.3,
+      "price": 3063.9,
       "prevClose": 3055.0,
       "source": "NSE",
       "symbol": "TRENT",
-      "pctChange": 0.27
+      "pctChange": 0.29
     },
     "BEL": {
-      "price": 390.65,
+      "price": 391.4,
       "prevClose": 395.1,
       "source": "NSE",
       "symbol": "BEL",
-      "pctChange": -1.13
+      "pctChange": -0.94
     },
     "DIXON": {
-      "price": 12479.0,
+      "price": 12562.0,
       "prevClose": 12616.0,
       "source": "NSE",
       "symbol": "DIXON",
-      "pctChange": -1.09
+      "pctChange": -0.43
     },
     "BHARTIARTL": {
-      "price": 2077.0,
+      "price": 2080.8,
       "prevClose": 2056.9,
       "source": "NSE",
       "symbol": "BHARTIARTL",
-      "pctChange": 0.98
+      "pctChange": 1.16
     },
     "PERSISTENT": {
-      "price": 6102.0,
+      "price": 6080.5,
       "prevClose": 6109.5,
       "source": "NSE",
       "symbol": "PERSISTENT",
-      "pctChange": -0.12
+      "pctChange": -0.47
     },
     "HAL": {
-      "price": 4912.7,
+      "price": 4926.6,
       "prevClose": 5043.0,
       "source": "NSE",
       "symbol": "HAL",
-      "pctChange": -2.58
+      "pctChange": -2.31
     },
     "CHOLAFIN": {
-      "price": 1760.3,
+      "price": 1766.8,
       "prevClose": 1760.0,
       "source": "NSE",
       "symbol": "CHOLAFIN",
-      "pctChange": 0.02
+      "pctChange": 0.39
     },
     "FEDERALBNK": {
-      "price": 339.55,
+      "price": 338.5,
       "prevClose": 338.5,
       "source": "NSE",
       "symbol": "FEDERALBNK",
-      "pctChange": 0.31
+      "pctChange": 0.0
     }
   },
   "failed": [],
   "nifty": {
-    "level": 24744.3,
-    "sma200": 23997.42,
+    "level": 24800.45,
+    "sma200": 23997.71,
     "regimeBull": true
   },
   "regimeBull": true
