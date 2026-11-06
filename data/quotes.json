@@ -1,69 +1,69 @@
 {
-  "asOfIST": "05 Nov 2026 17:01",
-  "generatedISO": "2026-11-05T17:01:06.860905+05:30",
+  "asOfIST": "06 Nov 2026 09:09",
+  "generatedISO": "2026-11-06T09:09:48.474074+05:30",
   "source": "NSE NextApi + Yahoo fallback",
   "quotes": {
     "TRENT": {
-      "price": 3055.0,
-      "prevClose": 3060.0,
+      "price": 3049.0,
+      "prevClose": 3055.0,
       "source": "NSE",
       "symbol": "TRENT",
-      "pctChange": -0.16
+      "pctChange": -0.2
     },
     "BEL": {
-      "price": 395.1,
-      "prevClose": 398.0,
+      "price": 390.0,
+      "prevClose": 395.1,
       "source": "NSE",
       "symbol": "BEL",
-      "pctChange": -0.73
+      "pctChange": -1.29
     },
     "DIXON": {
-      "price": 12616.0,
-      "prevClose": 12290.0,
+      "price": 12510.0,
+      "prevClose": 12616.0,
       "source": "NSE",
       "symbol": "DIXON",
-      "pctChange": 2.65
+      "pctChange": -0.84
     },
     "BHARTIARTL": {
-      "price": 2056.9,
-      "prevClose": 2067.6,
+      "price": 2120.0,
+      "prevClose": 2056.9,
       "source": "NSE",
       "symbol": "BHARTIARTL",
-      "pctChange": -0.52
+      "pctChange": 3.07
     },
     "PERSISTENT": {
-      "price": 6109.5,
-      "prevClose": 6065.0,
+      "price": 6175.0,
+      "prevClose": 6109.5,
       "source": "NSE",
       "symbol": "PERSISTENT",
-      "pctChange": 0.73
+      "pctChange": 1.07
     },
     "HAL": {
-      "price": 5043.0,
-      "prevClose": 5079.1,
+      "price": 4970.5,
+      "prevClose": 5043.0,
       "source": "NSE",
       "symbol": "HAL",
-      "pctChange": -0.71
+      "pctChange": -1.44
     },
     "CHOLAFIN": {
-      "price": 1760.0,
-      "prevClose": 1658.0,
+      "price": 1743.2,
+      "prevClose": 1760.0,
       "source": "NSE",
       "symbol": "CHOLAFIN",
-      "pctChange": 6.15
+      "pctChange": -0.95
     },
     "FEDERALBNK": {
-      "price": 338.5,
-      "prevClose": 335.2,
+      "price": 340.0,
+      "prevClose": 338.5,
       "source": "NSE",
       "symbol": "FEDERALBNK",
-      "pctChange": 0.98
+      "pctChange": 0.44
     }
   },
   "failed": [],
   "nifty": {
-    "level": 24536.6,
-    "sma200": 24002.44,
+    "level": 24538.2,
+    "sma200": 23996.47,
     "regimeBull": true
   },
   "regimeBull": true
