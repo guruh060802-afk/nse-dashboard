@@ -1,6 +1,6 @@
 window.MARKET_QUOTES = {
-  "asOfIST": "10 Nov 2026 10:54",
-  "generatedISO": "2026-11-10T10:54:23.687054+05:30",
+  "asOfIST": "10 Nov 2026 11:47",
+  "generatedISO": "2026-11-10T11:47:10.318005+05:30",
   "source": "NSE NextApi + Yahoo fallback",
   "quotes": {
     "TRENT": {
