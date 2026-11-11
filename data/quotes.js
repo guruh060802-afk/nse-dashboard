@@ -1,69 +1,69 @@
 window.MARKET_QUOTES = {
-  "asOfIST": "10 Nov 2026 16:30",
-  "generatedISO": "2026-11-10T16:30:36.364185+05:30",
+  "asOfIST": "11 Nov 2026 09:10",
+  "generatedISO": "2026-11-11T09:10:33.276342+05:30",
   "source": "NSE NextApi + Yahoo fallback",
   "quotes": {
     "TRENT": {
-      "price": 3119.2,
-      "prevClose": 3057.5,
+      "price": 3160.0,
+      "prevClose": 3119.2,
       "source": "NSE",
       "symbol": "TRENT",
-      "pctChange": 2.02
+      "pctChange": 1.31
     },
     "BEL": {
-      "price": 394.55,
-      "prevClose": 397.7,
+      "price": 402.0,
+      "prevClose": 394.55,
       "source": "NSE",
       "symbol": "BEL",
-      "pctChange": -0.79
+      "pctChange": 1.89
     },
     "DIXON": {
-      "price": 12603.0,
-      "prevClose": 12604.0,
+      "price": 12650.0,
+      "prevClose": 12603.0,
       "source": "NSE",
       "symbol": "DIXON",
-      "pctChange": -0.01
+      "pctChange": 0.37
     },
     "BHARTIARTL": {
-      "price": 2072.1,
-      "prevClose": 2085.5,
+      "price": 2103.0,
+      "prevClose": 2072.1,
       "source": "NSE",
       "symbol": "BHARTIARTL",
-      "pctChange": -0.64
+      "pctChange": 1.49
     },
     "PERSISTENT": {
-      "price": 6040.0,
-      "prevClose": 6022.0,
+      "price": 6060.0,
+      "prevClose": 6040.0,
       "source": "NSE",
       "symbol": "PERSISTENT",
-      "pctChange": 0.3
+      "pctChange": 0.33
     },
     "HAL": {
       "price": 4999.0,
-      "prevClose": 4985.0,
+      "prevClose": 4999.0,
       "source": "NSE",
       "symbol": "HAL",
-      "pctChange": 0.28
+      "pctChange": 0.0
     },
     "CHOLAFIN": {
-      "price": 1790.8,
-      "prevClose": 1769.8,
+      "price": 1811.0,
+      "prevClose": 1790.8,
       "source": "NSE",
       "symbol": "CHOLAFIN",
-      "pctChange": 1.19
+      "pctChange": 1.13
     },
     "FEDERALBNK": {
-      "price": 344.1,
-      "prevClose": 336.7,
+      "price": 346.0,
+      "prevClose": 344.1,
       "source": "NSE",
       "symbol": "FEDERALBNK",
-      "pctChange": 2.2
+      "pctChange": 0.55
     }
   },
   "failed": [],
   "nifty": {
-    "level": 25044.65,
-    "sma200": 23995.83,
+    "level": 25338.75,
+    "sma200": 23994.04,
     "regimeBull": true
   },
   "regimeBull": true
