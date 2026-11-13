@@ -1,69 +1,69 @@
 {
-  "asOfIST": "13 Nov 2026 13:21",
-  "generatedISO": "2026-11-13T13:21:14.349486+05:30",
+  "asOfIST": "13 Nov 2026 14:12",
+  "generatedISO": "2026-11-13T14:12:28.479472+05:30",
   "source": "NSE NextApi + Yahoo fallback",
   "quotes": {
     "TRENT": {
-      "price": 3169.0,
+      "price": 3155.9,
       "prevClose": 3180.0,
       "source": "NSE",
       "symbol": "TRENT",
-      "pctChange": -0.35
+      "pctChange": -0.76
     },
     "BEL": {
-      "price": 399.9,
+      "price": 398.45,
       "prevClose": 404.8,
       "source": "NSE",
       "symbol": "BEL",
-      "pctChange": -1.21
+      "pctChange": -1.57
     },
     "DIXON": {
-      "price": 12831.0,
+      "price": 12755.0,
       "prevClose": 12992.0,
       "source": "NSE",
       "symbol": "DIXON",
-      "pctChange": -1.24
+      "pctChange": -1.82
     },
     "BHARTIARTL": {
-      "price": 2116.0,
+      "price": 2116.4,
       "prevClose": 2096.0,
       "source": "NSE",
       "symbol": "BHARTIARTL",
-      "pctChange": 0.95
+      "pctChange": 0.97
     },
     "PERSISTENT": {
-      "price": 6033.0,
+      "price": 5997.5,
       "prevClose": 6030.0,
       "source": "NSE",
       "symbol": "PERSISTENT",
-      "pctChange": 0.05
+      "pctChange": -0.54
     },
     "HAL": {
-      "price": 4791.3,
+      "price": 4775.3,
       "prevClose": 4843.4,
       "source": "NSE",
       "symbol": "HAL",
-      "pctChange": -1.08
+      "pctChange": -1.41
     },
     "CHOLAFIN": {
-      "price": 1827.7,
+      "price": 1831.6,
       "prevClose": 1862.0,
       "source": "NSE",
       "symbol": "CHOLAFIN",
-      "pctChange": -1.84
+      "pctChange": -1.63
     },
     "FEDERALBNK": {
-      "price": 361.0,
+      "price": 359.05,
       "prevClose": 362.5,
       "source": "NSE",
       "symbol": "FEDERALBNK",
-      "pctChange": -0.41
+      "pctChange": -0.95
     }
   },
   "failed": [],
   "nifty": {
-    "level": 25133.15,
-    "sma200": 23991.65,
+    "level": 25082.45,
+    "sma200": 23991.44,
     "regimeBull": true
   },
   "regimeBull": true
