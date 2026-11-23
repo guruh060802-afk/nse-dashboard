@@ -1,69 +1,69 @@
 window.MARKET_QUOTES = {
-  "asOfIST": "23 Nov 2026 10:26",
-  "generatedISO": "2026-11-23T10:26:23.522489+05:30",
+  "asOfIST": "23 Nov 2026 11:24",
+  "generatedISO": "2026-11-23T11:24:52.415624+05:30",
   "source": "NSE NextApi + Yahoo fallback",
   "quotes": {
     "TRENT": {
-      "price": 3211.9,
+      "price": 3220.0,
       "prevClose": 3256.1,
       "source": "NSE",
       "symbol": "TRENT",
-      "pctChange": -1.36
+      "pctChange": -1.11
     },
     "BEL": {
-      "price": 401.35,
+      "price": 400.1,
       "prevClose": 402.0,
       "source": "NSE",
       "symbol": "BEL",
-      "pctChange": -0.16
+      "pctChange": -0.47
     },
     "DIXON": {
-      "price": 13355.0,
+      "price": 13423.0,
       "prevClose": 13120.0,
       "source": "NSE",
       "symbol": "DIXON",
-      "pctChange": 1.79
+      "pctChange": 2.31
     },
     "BHARTIARTL": {
-      "price": 2141.0,
+      "price": 2137.5,
       "prevClose": 2161.7,
       "source": "NSE",
       "symbol": "BHARTIARTL",
-      "pctChange": -0.96
+      "pctChange": -1.12
     },
     "PERSISTENT": {
-      "price": 6247.0,
+      "price": 6290.0,
       "prevClose": 6124.0,
       "source": "NSE",
       "symbol": "PERSISTENT",
-      "pctChange": 2.01
+      "pctChange": 2.71
     },
     "HAL": {
-      "price": 4773.7,
+      "price": 4781.5,
       "prevClose": 4809.0,
       "source": "NSE",
       "symbol": "HAL",
-      "pctChange": -0.73
+      "pctChange": -0.57
     },
     "CHOLAFIN": {
-      "price": 1861.6,
+      "price": 1861.9,
       "prevClose": 1874.6,
       "source": "NSE",
       "symbol": "CHOLAFIN",
-      "pctChange": -0.69
+      "pctChange": -0.68
     },
     "FEDERALBNK": {
-      "price": 365.3,
+      "price": 366.05,
       "prevClose": 373.5,
       "source": "NSE",
       "symbol": "FEDERALBNK",
-      "pctChange": -2.2
+      "pctChange": -1.99
     }
   },
   "failed": [],
   "nifty": {
-    "level": 25602.85,
-    "sma200": 23998.75,
+    "level": 25608.05,
+    "sma200": 23998.79,
     "regimeBull": true
   },
   "regimeBull": true
