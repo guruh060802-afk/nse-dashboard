@@ -1,69 +1,69 @@
 window.MARKET_QUOTES = {
-  "asOfIST": "25 Nov 2026 13:41",
-  "generatedISO": "2026-11-25T13:41:06.524916+05:30",
+  "asOfIST": "25 Nov 2026 14:48",
+  "generatedISO": "2026-11-25T14:48:35.228814+05:30",
   "source": "NSE NextApi + Yahoo fallback",
   "quotes": {
     "TRENT": {
-      "price": 3293.8,
+      "price": 3315.6,
       "prevClose": 3208.0,
       "source": "NSE",
       "symbol": "TRENT",
-      "pctChange": 2.67
+      "pctChange": 3.35
     },
     "BEL": {
-      "price": 401.85,
+      "price": 402.8,
       "prevClose": 395.8,
       "source": "NSE",
       "symbol": "BEL",
-      "pctChange": 1.53
+      "pctChange": 1.77
     },
     "DIXON": {
-      "price": 12848.0,
+      "price": 13070.0,
       "prevClose": 13390.0,
       "source": "NSE",
       "symbol": "DIXON",
-      "pctChange": -4.05
+      "pctChange": -2.39
     },
     "BHARTIARTL": {
-      "price": 2112.8,
+      "price": 2118.4,
       "prevClose": 2128.5,
       "source": "NSE",
       "symbol": "BHARTIARTL",
-      "pctChange": -0.74
+      "pctChange": -0.47
     },
     "PERSISTENT": {
-      "price": 6143.0,
+      "price": 6160.0,
       "prevClose": 6282.5,
       "source": "NSE",
       "symbol": "PERSISTENT",
-      "pctChange": -2.22
+      "pctChange": -1.95
     },
     "HAL": {
-      "price": 4895.1,
+      "price": 4897.9,
       "prevClose": 4780.0,
       "source": "NSE",
       "symbol": "HAL",
-      "pctChange": 2.41
+      "pctChange": 2.47
     },
     "CHOLAFIN": {
-      "price": 1863.4,
+      "price": 1862.5,
       "prevClose": 1831.0,
       "source": "NSE",
       "symbol": "CHOLAFIN",
-      "pctChange": 1.77
+      "pctChange": 1.72
     },
     "FEDERALBNK": {
-      "price": 354.45,
+      "price": 355.45,
       "prevClose": 359.8,
       "source": "NSE",
       "symbol": "FEDERALBNK",
-      "pctChange": -1.49
+      "pctChange": -1.21
     }
   },
   "failed": [],
   "nifty": {
-    "level": 25706.65,
-    "sma200": 23999.31,
+    "level": 25743.9,
+    "sma200": 23999.56,
     "regimeBull": true
   },
   "regimeBull": true
